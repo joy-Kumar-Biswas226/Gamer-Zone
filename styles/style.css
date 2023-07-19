@@ -290,15 +290,27 @@ line-height: normal;
     text-align: center;
   }
 
-  @media screen and (max-width: 576px) {
-    
+
+  @media screen and (max-width:676px) {
+
     .Nav-content,
-    .Nav-items-content,
-    .Banner-Container,
-    .Online-Games,
-    .Container
     {
         flex-direction: column;
-
     }
+    
+    .banner-image{
+        flex-direction: column;
+        width: auto;
+      height: auto;
   }
+   .Online-games-img{
+    flex-direction: column;
+   }
+   .clasification{
+    flex-direction: column;
+   }
+   .Footer-Img{
+    flex-direction: column;
+   }
+  
+}
