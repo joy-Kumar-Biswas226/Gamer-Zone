@@ -6,33 +6,116 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-
-/* shared file styles */
-Nav-Section{
-   
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 1920px;
+    margin: 0 auto;
+  }
+  
+  /* nav section */
+  nav {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  }
+  
+  .Logo {
+    max-width: 100%;
+    max-height: 100%;
     display: flex;
-    flex-direction: row-reverse;
+  }
+  
+  .Logo img {
+    width: auto;
+    object-fit: cover;
+    max-height: 50%;
+    margin-top: 25px;
+  
+  }
+  
+  .Logo p {
+    font-size: 30px;
+    margin-left: 20px;
+  
+  }
+  
+  .Nav-content {
+    display: flex;
+    flex-direction: none;
     justify-content: space-between;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .Nav-items-content {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
-   
-   }
-    nav > ul {
+  }
+  
+  .Nav-items-content a {
+    text-decoration: none;
+  }
+  
+  /* banner section styles */
 
-         display: flex;
-       }
+  .Banner-Container{
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+     margin:0 auto;
+    align-items: center;
+    justify-content: center;
+    gap:300px;
+  }
+  .Banner-Head h2{
+    color: #0B0223;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  
+  }
+  .Banner-Head h1{
+    text-align: center;
+    margin-bottom:1px;
+    margin-top:10px ;
+    font-size: 95px;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  .btn-primary{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 48px;
+    border: none;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  }
+  .btn-secondary{
+    display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: #4EC5F7;
+  color: #fff;
+  border: none;
+  margin-left: 20px;
+  }
 
-    nav li{
-        list-style: none;
-       margin-right: 32px;
-       font-weight: 400;
-       font-size: 1rem;
-    }
-
-    .Home-container > a{
-        background-color:#FFF;
-        
-    }
-
-    .Frame{
-     display: flex;
-    }
