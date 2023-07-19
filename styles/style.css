@@ -137,9 +137,6 @@
     margin-top: 30px;
 
   }
-  .Online-Games h4 {
- text-align: center;
-  }
 
   .Container{
     width: 48px;
@@ -147,34 +144,36 @@
   flex-shrink: 0;
     position: relative;
   }
-  .Online-games-img .Container{
-    position: inherit;
-  }
 
 .Information-details{
-background: #f3efef;
-   min-height: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  margin: 0 auto;
 }
   .Game-Information{
     max-width: 1080px;
     margin: O auto;
     border: 1px solid #FFF;
   }
-  .game-Info{
-    width: 100px;
-   height: 270px;
-   align-items: center;
-   display: flex;
+  .Game-Img1{
+  height: 100%;
+  }
+  .Game-Img1 img{
+    height: 85%;
   }
 
-  .Career-Information {
-    display: flex;
-    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-  }
-  .Career-Info{
-text-align: center;
+  .Game-Img2{
+    border-radius: 8px;
+   color: #FFF;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    bottom: 275px;
   }
 
+  /*footer section styles*/
   footer{
     background: #0B0223;
   }
@@ -201,11 +200,6 @@ line-height: normal;
   }
 
   .resrtrict {
-    display: flex;
     flex-direction: column;
     color: rgba(255, 255, 255, 0.60);
-   text-align: center;
-   font-size: 16px;
-   font-style: normal;
-   line-height: normal;
   }
