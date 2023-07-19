@@ -166,3 +166,46 @@ background: #f3efef;
    align-items: center;
    display: flex;
   }
+
+  .Career-Information {
+    display: flex;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  }
+  .Career-Info{
+text-align: center;
+  }
+
+  footer{
+    background: #0B0223;
+  }
+  .amer{
+  color: #FFF;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .footer-text{
+    color: #FFF;
+  gap: 60px;
+  }
+  .footer-section{
+    flex-direction: column;
+  }
+  .Logo{
+    display: inline-flex;
+   padding: 10px;
+   align-items: flex-start;
+   gap: 60px;
+  }
+
+  .resrtrict {
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.60);
+   text-align: center;
+   font-size: 16px;
+   font-style: normal;
+   line-height: normal;
+  }
