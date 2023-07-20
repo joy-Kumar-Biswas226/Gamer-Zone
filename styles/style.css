@@ -233,7 +233,6 @@
   }
 
   .clasification p {
-    position: relative;
     text-align:center;
   }
   .Game-card{
@@ -310,4 +309,101 @@ line-height: normal;
   }
 .policy{
   cursor: pointer;
+}
+
+/*responsive styles section*/
+
+@media screen and (max-width: 576px) {
+
+  .Nav-content
+   {
+    flex-direction: column;
+    width: 100vh;
+  }
+  .Logo img{
+    width: 50%;
+  }
+  .Nav-items-content{
+    flex-direction: column;
+  }
+  .banner-image{
+    flex-direction: column;
+  }
+  .Banner-Container{
+    flex-direction: column;
+  }
+  .Online-games-img{
+    flex-direction: column;
+  }
+  .Information-details{
+    flex-direction: column;
+  }
+  .Games-clasification{
+    flex-direction: column;
+    position: relative(2 1fr);
+    height: auto;
+  
+  }
+.Game-card{
+ flex-direction: column;
+}
+.Main-footer ul {
+  flex-direction:column;
+  text-align: center;
+}
+.icons ul{
+  flex-direction: column;
+}
+ .policy ul{
+  flex-direction:column;
+  text-align: center;
+ } 
+  
+}
+
+@media screen and ((min-width: 576px) and  (max-width:992px)) {
+
+  .Nav-content
+   {
+    flex-direction: column;
+    width: 100vh;
+  }
+  .Logo img{
+    width: 50%;
+  }
+  .Nav-items-content{
+    flex-direction: column;
+  }
+  .banner-image{
+    flex-direction: column;
+  }
+  .Banner-Container{
+    flex-direction: column;
+  }
+  .Online-games-img{
+    flex-direction: column;
+  }
+  .Information-details{
+    flex-direction: column;
+  }
+  .Games-clasification{
+    flex-direction: column;
+    position: relative(2 1fr);
+    height: auto;
+  
+  }
+.Game-card{
+ flex-direction: column;
+}
+.Main-footer ul {
+  flex-direction:column;
+}
+.icons ul{
+  flex-direction: column;
+}
+ .policy ul{
+  flex-direction:column;
+  width:50%;
+ } 
+  
 }
