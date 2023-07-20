@@ -285,18 +285,19 @@ line-height: normal;
     display: flex;
     justify-content: center;
     gap: 60px;
+    cursor:pointer;
     
   }
   .Main-footer ul{
     list-style: none;
   
   }
-  .icons ul{
+  .icons>ul{
     display: flex;
     justify-content: center;
     gap:50px;
-    font-size: 30px;
-
+    font-size: 50px;
+    color: #e2a2a2;
   }
   .policy ul{
     display: flex;
@@ -307,3 +308,6 @@ line-height: normal;
   .copyright{
     text-align: center;
   }
+.policy{
+  cursor: pointer;
+}
